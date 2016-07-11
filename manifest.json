@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Privacy Protector",
+  "description": "This extension will analyze script find out where a script have access",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "popup_window/img/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions":["tabs", "storage"],
+  "content_scripts": [{
+                        "matches": ["http://*/*","https://*/*"],
+                        "js": ["popup_window/js/inject.js"],
+                        "run_at":"document_start"
+                      }],
+  "web_accessible_resources": ["injectedElement.js"]
+}
+

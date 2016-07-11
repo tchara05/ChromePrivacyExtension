@@ -1,0 +1,499 @@
+* {
+    font-family:  Helvetica, Arial, sans-serif!important;
+    color: #000000;
+}
+
+html{
+    background-color: #ffffff;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background: url("../img/besh.png");
+}
+
+
+h3 {
+    padding:0;
+    margin:0;
+}
+
+a{
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+button:focus {
+    outline:0!important;
+    border: 1px;
+}
+
+/*============================= Top Nav Bar=====================================*/
+
+#top-bar {
+    background-color: #689F38;
+    border: 2px solid #689F38;
+    height: 55px;
+    border-radius: 0;
+    font-size: medium;
+    margin:0;
+}
+
+
+/*============================== Second Top Bar=================================*/
+#second-bar-wrapper{
+    padding:0;
+    display: block;
+    margin-top: -2px;
+    background-color: white;
+    width: 100%;
+    opacity: 0.98;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid transparent;
+
+}
+
+
+.left-img{
+    float:left;
+    margin-left: 40px;
+    margin-top:13px;
+}
+/*=============================================================================*/
+
+
+
+#main-content{
+    margin:0 auto;
+    width: 100%;
+    background: none;
+    border: 2px solid transparent;
+
+
+}
+.list-group-item, .list-group-item:first-child, .list-group-item:last-child {
+
+    border-radius: 0;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.my-list-group-item{
+
+    text-align:left !important;
+    width: 100%;
+    height: 60px;
+
+}
+
+#settings-panel{
+
+    margin: 0 0;
+    padding:0;
+    max-height: 700px ;
+    opacity: 0.9;
+
+}
+
+
+.input-row{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+#settings-panel .panel {
+    margin:0 auto;
+    width: 900px;
+    height: 570px;
+}
+
+#settings-panel .panel .panel-body {
+    background: none;
+    border-radius: 0!important;
+
+
+}
+
+#settings-panel .panel-default{
+    border-radius: 0!important;
+
+}
+
+h1.panel-title{
+    font-size: 2.5em;
+}
+
+
+.active-hover {
+    background-color: #DCEDC8!important;
+    border: 1px solid #DCEDC8!important;
+}
+
+.container-fluid {
+    margin:0;
+    padding:0;
+
+}
+
+
+#saved-settings-content {
+    overflow-y: auto;
+    height: 100%;
+}
+
+
+
+/*=============================Search Settings=====================*/
+#search-settings-content {
+    overflow-y: auto;
+    height: 100%;
+}
+
+#search-result{
+    margin:0;
+}
+
+
+/*=================================================================*/
+
+#days{
+
+    text-align:start;
+    padding-left:10px;
+}
+
+.myrow {
+    text-align: start;
+    margin-left: 0;
+    width :100%;
+
+}
+
+.myrow .list-group-item {
+    overflow-y: hidden;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    border:0;
+}
+
+div.slider-selection{
+    background-color: #5bc0de;
+    background: #5bc0de;
+}
+
+
+
+.list-group-item.in-taglist{
+    width: 800px!important;
+    overflow-y: hidden;
+}
+
+.day-time {
+
+    display:block;
+    margin-left: 20px;
+}
+
+#second-bar-wrapper .list-group-item:hover{
+    background-color: #DCEDC8!important;
+    border: 1px solid #DCEDC8!important;
+}
+
+
+.time{
+    margin-left: 50px;
+}
+
+.day{
+    margin-left: 8px!important;
+}
+
+.right {
+    display:inline;
+    float:right;
+    margin:-5px 0;
+
+}
+
+.nav-tabs {
+border: 0;
+}
+
+.nav-tabs li a{
+    padding: 3px 15px !important;
+}
+
+.slider-horizontal{
+    width: 200px!important;
+}
+
+.bigger-button{
+    width: 200px;
+    border-radius: 0;
+    border-bottom: 0;
+}
+
+.days-navbar{
+    margin-bottom: 9px;
+    padding-left:70px;
+    padding-right:70px;
+}
+
+.days h4{
+    margin-left: 5px;
+    padding: 0 14px;
+
+}
+
+.days:hover {
+    background-color:#5bc0de!important;
+}
+.inline {
+    display: inline;
+
+}
+
+.list-group-item.inline {
+
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+}
+
+.list-group-item.inline:hover{
+    background-color:#5bc0de;
+    border-color: #5bc0de;
+    color:#000000;
+
+}
+
+
+#datafile, #communication{
+
+}
+
+
+
+
+.active-access {
+    background-color:#5bc0de!important;
+    border-color: #5bc0de!important;
+    color:black!important;
+    border-bottom: 0;
+}
+
+.saved-list-item {
+    text-align: left!important;
+}
+
+.right {
+    margin-top:0;
+}
+
+b + .right {
+    margin-top: -20px!important;
+}
+
+.cancel, .confirm{
+    background-color: #ffffff!important;
+    border:1px solid #ccc!important;
+    box-shadow: none!important;
+}
+
+
+/*======================================Pagination==================================*/
+
+#pagination-demo *{
+    color:black!important;
+}
+#pagination-demo li.page.active a{
+    background-color:#5bc0de!important;
+    border-color: #5bc0de!important;
+    color:black;
+}
+
+
+
+#pagination-demo-1 {
+    display: block;
+    width: 35%;
+    margin: 0 auto!important;
+}
+#pagination-demo-2 {
+    display: block;
+    width: 38.5%;
+    margin: 0 auto!important;
+}
+
+#pagination-demo-3 {
+    display: block;
+    width: 42%;
+    margin: 0 auto!important;
+}
+
+#pagination-demo-4 {
+    display: block;
+    width: 48.5%;
+    margin: 0 auto!important;
+}
+
+#pagination-demo-5 {
+    display: block;
+    width: 44%;
+    margin: 0 auto!important;
+}
+
+
+#pagination {
+    margin-left: 0;
+    margin-right: 0;
+}
+/*=========================================================*/
+
+button:focus, button:active, button:visited{
+    outline: 0;
+    border:1px solid #ccc;
+    background-color:  white!important;
+    box-shadow: none;
+}
+
+button:active {
+    background-color: #c0c0c0!important;
+    border-color: #ccc;
+}
+
+.settings{
+    margin-top: 7px;
+}
+
+
+.edit {
+    margin-left: 10px;
+}
+
+.delete {
+    margin-left:10px;
+
+}
+.img-of-saved{
+    margin-top: -5px;
+    margin-left:3px;
+}
+
+
+.not-supported {
+    font-size: small;
+    color:grey;
+}
+
+.left{
+    float:left;
+}
+
+#save-button{
+    display: block;
+    margin: 0 auto;
+
+}
+/*=============================Copy From One Day To Another=======================*/
+#copy-btn{
+    display: block;
+    width: 100%;
+    margin:20px auto;
+}
+
+#transfer-btn-left{
+    width: 100%;
+    display: inline-block;
+}
+#transfer-btn-right{
+    width: 100%;
+    display: inline-block;
+}
+
+#drop-down-menu-left, #drop-down-menu-right {
+    width: 100%;
+}
+
+.dropdown-menu li{
+    text-align: center;
+}
+
+.mycaret{
+    margin-top: 7px;
+
+}
+/*==============================================================================*/
+
+
+#saved-pages{
+    margin-left:0;
+    margin-right: 0;
+
+}
+
+
+/*======================================ToolTip==========================================*/
+
+.my-tooltip + .tooltip > .tooltip-inner { margin-left:3px; background: darkblue;}
+.my-tooltip + .tooltip > .tooltip-arrow { margin-left:3px;border-right-color:darkblue; }
+
+
+
+/*================================Loader CSS=============================================*/
+
+.loader {
+    margin: 100px auto;
+    margin-left:410px;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(0, 255, 255, 0.2);
+    border-right: 1.1em solid rgba(0, 255, 255, 0.2);
+    border-bottom: 1.1em solid rgba(0, 255, 255, 0.2);
+    border-left: 1.1em solid #5bc0de;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+.loader,
+.loader:after {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/*=============================================================================*/

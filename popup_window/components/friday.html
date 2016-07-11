@@ -1,0 +1,84 @@
+<!--Hardware Access-->
+<div id="hardware-access-friday" class="access row"  >
+    <div class="col-xs-6" style="padding-right: 0">
+        <li class="list-group-item my-list-group-item">Current Location:<br>
+            <b id="geolocation-friday-time-start">00:00</b><input id="geolocation-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="geolocation-friday-time-end">23:59</b>
+            <span class="right"><input id="geolocation-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+
+        <li class="list-group-item my-list-group-item">Device Orientation and Motion </br>
+            <b id="deviceorientation-friday-time-start">00:00</b><input id="deviceorientation-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="deviceorientation-friday-time-end">23:59</b>
+            <span class="right"> <input  id="deviceorientation-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+
+
+        <li class="list-group-item my-list-group-item">Vibration Access </br>
+            <b id="vibrate-friday-time-start">00:00</b><input id="vibrate-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30"  data-slider-value="[10,2359]"/><b id="vibrate-friday-time-end">23:59</b>
+            <span class="right"><input id="vibrate-friday-toggle" type="checkbox" checked data-toggle="toggle"></span> </li>
+
+
+        <li class="list-group-item my-list-group-item">Camera </br>
+            <b id="mediaDevices-friday-time-start">00:00</b><input id="mediaDevices-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="mediaDevices-friday-time-end">23:59</b>
+            <span class="right"> <input id="mediaDevices-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+        <li class="list-group-item my-list-group-item">Light Sensor </br>
+            <b id="devicelight-friday-time-start">00:00</b><input id="devicelight-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="devicelight-friday-time-end">23:59</b>
+            <span class="right"> <input id="devicelight-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+
+    </div>
+    <div class="col-xs-6" style="margin:0; padding-left:0">
+
+        <li class="list-group-item my-list-group-item">Proximity Sensor </br>
+            <b id="userproximity-friday-time-start">00:00</b><input id="userproximity-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="userproximity-friday-time-end">23:59</b>
+            <span class="right"> <input id="userproximity-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+        <li class="list-group-item my-list-group-item">Device Orientation </br>
+            <b id="orientationchange-friday-time-start">00:00</b><input id="orientationchange-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="orientationchange-friday-time-end">23:59</b>
+            <span class="right"> <input id="orientationchange-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+    </div>
+</div>
+
+<!--Communication Access Settings-->
+<div id="communication-access-friday" class="access row hide">
+    <div class="col-xs-6">
+        <li class="list-group-item my-list-group-item">Bluetooth<br>
+            <b id="bluetooth-friday-time-start">00:00</b><input id="bluetooth-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="bluetooth-friday-time-end">23:59</b>
+            <span class="right"> <input  id="bluetooth-friday-toggle" type="checkbox"  data-toggle="toggle"></span>
+        </li>
+
+        <li class="list-group-item my-list-group-item">Network information<br>
+            <b id="onLine-friday-time-start">00:00</b><input id="onLine-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="onLine-friday-time-end">23:59</b>
+            <span class="right"> <input  id="onLine-friday-toggle" type="checkbox"  data-toggle="toggle"></span>
+        </li>
+        <li class="list-group-item my-list-group-item">Notification<br>
+            <b id="notification-friday-time-start">00:00</b><input id="notification-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="notification-friday-time-end">23:59</b>
+            <span class="right"> <input  id="notification-friday-toggle" type="checkbox"  data-toggle="toggle"></span>
+        </li>
+    </div>
+
+    <div class="col-xs-6" style="margin:0; padding-left:0">
+
+    </div>
+</div>
+
+
+
+<!--Files Access-->
+<div id="datafile-access-friday" class="access row hide">
+    <div class="col-xs-6" style="padding-right: 0">
+        <li class="list-group-item my-list-group-item"> IndexedDB<br>
+            <b id="indexedDB-friday-time-start">00:00</b><input id="indexedDB-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="indexedDB-friday-time-end">23:59</b>
+            <span class="right"><input id="indexedDB-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+        <li class="list-group-item my-list-group-item"> Operating System Information<br>
+            <b id="oscpu-friday-time-start">00:00</b><input id="oscpu-friday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="oscpu-friday-time-end">23:59</b>
+            <span class="right"><input id="oscpu-friday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+    </div>
+</div>

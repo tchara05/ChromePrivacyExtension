@@ -1,0 +1,87 @@
+<!--Hardware Access-->
+<div id="hardware-access-thursday" class="access row"  >
+    <div class="col-xs-6" style="padding-right: 0">
+        <li class="list-group-item my-list-group-item">Current Location:<br>
+            <b id="geolocation-thursday-time-start">00:00</b><input id="geolocation-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="geolocation-thursday-time-end">23:59</b>
+            <span class="right"><input id="geolocation-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+
+        <li class="list-group-item my-list-group-item">Device Orientation and Motion </br>
+            <b id="deviceorientation-thursday-time-start">00:00</b><input id="deviceorientation-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="deviceorientation-thursday-time-end">23:59</b>
+            <span class="right"> <input  id="deviceorientation-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+
+
+        <li class="list-group-item my-list-group-item">Vibration Access </br>
+            <b id="vibrate-thursday-time-start">00:00</b><input id="vibrate-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30"  data-slider-value="[10,2359]"/><b id="vibrate-thursday-time-end">23:59</b>
+            <span class="right"><input id="vibrate-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span> </li>
+
+
+        <li class="list-group-item my-list-group-item">Camera </br>
+            <b id="mediaDevices-thursday-time-start">00:00</b><input id="mediaDevices-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="mediaDevices-thursday-time-end">23:59</b>
+            <span class="right"> <input id="mediaDevices-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+        <li class="list-group-item my-list-group-item">Light Sensor </br>
+            <b id="devicelight-thursday-time-start">00:00</b><input id="devicelight-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="devicelight-thursday-time-end">23:59</b>
+            <span class="right"> <input id="devicelight-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+
+    </div>
+    <div class="col-xs-6" style="margin:0; padding-left:0">
+
+        <li class="list-group-item my-list-group-item">Proximity Sensor </br>
+            <b id="userproximity-thursday-time-start">00:00</b><input id="userproximity-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="userproximity-thursday-time-end">23:59</b>
+            <span class="right"> <input id="userproximity-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+        <li class="list-group-item my-list-group-item">Device Orientation </br>
+            <b id="orientationchange-thursday-time-start">00:00</b><input id="orientationchange-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="orientationchange-thursday-time-end">23:59</b>
+            <span class="right"> <input id="orientationchange-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+    </div>
+</div>
+
+<!--Communication Access Settings-->
+<div id="communication-access-thursday" class="access row hide">
+    <div class="col-xs-6">
+        <li class="list-group-item my-list-group-item">Bluetooth<br>
+            <b id="bluetooth-thursday-time-start">00:00</b><input id="bluetooth-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="bluetooth-thursday-time-end">23:59</b>
+            <span class="right"> <input  id="bluetooth-thursday-toggle" type="checkbox"  data-toggle="toggle"></span>
+        </li>
+
+        <li class="list-group-item my-list-group-item">Network information<br>
+            <b id="onLine-thursday-time-start">00:00</b><input id="onLine-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="onLine-thursday-time-end">23:59</b>
+            <span class="right"> <input  id="onLine-thursday-toggle" type="checkbox"  data-toggle="toggle"></span>
+        </li>
+        <li class="list-group-item my-list-group-item">Notification<br>
+            <b id="notification-thursday-time-start">00:00</b><input id="notification-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="notification-thursday-time-end">23:59</b>
+            <span class="right"> <input  id="notification-thursday-toggle" type="checkbox"  data-toggle="toggle"></span>
+        </li>
+
+    </div>
+
+    <div class="col-xs-6" style="margin:0; padding-left:0">
+
+    </div>
+</div>
+
+
+
+<!--Files Access-->
+<div id="datafile-access-thursday" class="access row hide">
+    <div class="col-xs-6" style="padding-right: 0">
+        <li class="list-group-item my-list-group-item"> IndexedDB<br>
+            <b id="indexedDB-thursday-time-start">00:00</b><input id="indexedDB-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="indexedDB-thursday-time-end">23:59</b>
+            <span class="right"><input id="indexedDB-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+        <li class="list-group-item my-list-group-item"> Operating System Information<br>
+            <b id="oscpu-thursday-time-start">00:00</b><input id="oscpu-thursday-time" type="text" class="span2" value="" data-slider-min="00" data-slider-max="1440" data-slider-step="30" data-slider-value="[10,2359]"/><b id="oscpu-thursday-time-end">23:59</b>
+            <span class="right"><input id="oscpu-thursday-toggle" type="checkbox" checked data-toggle="toggle"></span>
+        </li>
+
+    </div>
+</div>

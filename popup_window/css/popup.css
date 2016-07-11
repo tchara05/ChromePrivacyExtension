@@ -1,0 +1,273 @@
+
+* {
+    font-family: 'Georgia', 'Times New Roman', Verdana, Arial, Helvetica, sans-serif !important;
+    color: #000000;
+}
+
+body {
+
+    min-height: 409px;
+    max-height: 409px;
+    width: 335px;
+    padding: 0;
+    margin: 5px;
+    position: relative;
+    background-color: white;
+
+}
+
+li {
+    text-align: center;
+}
+
+a {
+    color: #000000 !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+#top-bar {
+    background-color: #689F38;
+    border: 2px solid #689F38;
+    width: inherit;
+    height: 55px;
+}
+
+#logo {
+
+    float: left;
+    margin-left: 8px;
+
+}
+
+#notification-scan {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 16px;
+    height: 40px;
+
+}
+
+#notification-scan span{
+    color:white!important;
+    font-size: medium;
+}
+
+#bar-buttons{
+
+    width: 100px;
+    height: 52px;
+    display: inline;
+    float: right;
+
+
+
+}
+
+#settings {
+    float: right;
+}
+
+#settings-button {
+
+    background-color: #AED581;
+    float: right;
+    width: 36px;
+    height: 35px;
+    margin-top: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #558B2F;
+
+}
+
+#settings-button:hover {
+    background-color: #DCEDC8;
+}
+
+#settings-button:active {
+    box-shadow: none;
+    background-color: darkgreen;
+
+}
+
+#settings-button img {
+    margin-top: 7px;
+    margin-left: 1px;
+
+}
+
+.tab-wrapper {
+    color: black !important;
+    margin-top: -20px;
+    background-color: white;
+    width: 100%;
+    height: 355px;
+    border: 1px solid #689F38;
+    overflow-y: auto;
+    border-bottom:0 ;
+
+}
+
+.tab-content {
+    width: 100%;
+
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.nav-tabs > li > a {
+
+    margin-right: 0;
+    line-height: 0;
+    border: none;
+    border-radius: 0;
+}
+
+
+
+  .list-group-item:first-child{
+    margin: 0;
+    text-align: left;
+}
+.list-group {
+    margin-bottom: -1px;
+}
+
+.list-group#title-apis {
+    margin-top: 1px;
+    margin-bottom: -1px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav > li > a {
+    display: inline;
+    padding: 0;
+}
+
+a:focus {
+    outline: none;
+    border-color: inherit;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.list-group-item:first-child {
+    margin-top: -1px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.list-group-item {
+    text-align: left;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    font-size: medium;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+
+}
+.list-group {
+
+}
+.internal {
+    width: 100%;
+
+    margin:auto;
+    margin-bottom: 0;
+    padding:0;
+}
+.internal *{
+    font-size: medium;
+}
+.list-group-item.api {
+
+    font-size: large;
+
+}
+.list-group-item.api:hover {
+
+    background-color: #AED581;
+    border: 1px solid #AED581;
+    cursor: pointer;
+
+}
+.active-hover {
+    background-color: #AED581!important;
+    border: 1px solid #AED581!important;
+}
+
+#footer{
+    height: 55px;
+    border:  1px solid #689F38 ;
+    border-top: none;
+    padding: 1px;
+    background-color:#689F38 ;
+
+}
+
+.footer-btn{
+    color: #000000;
+    height: 40px;
+    background-color:#AED581 ;
+    width: 150px;
+    text-align: center;
+    border:  1px solid #689F38 ;
+    margin:  5px  4px;
+    border-radius: 4px;
+    padding-top: 7px;
+    cursor: pointer;
+
+}
+
+
+.toggle-on:active {
+    background-color: #689F38!important;
+    border-color: #689F38!important;
+}
+
+.toggle.btn {
+   float:right;
+    margin-top: -7px;
+}
+
+.btn-primary {
+    background-color: #689F38;
+    border-color: #689F38;
+}
+.btn-primary:hover {
+    background-color: #689F38;
+    border-color: #689F38;
+}
+
+.btn-primary:active{
+    background-color: #689F38;
+    border-color: #689F38;
+}
